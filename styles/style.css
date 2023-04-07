@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 41px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+h3 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #000;
+}
+p {
+  color: #000;
+  font-size: 16px;
+  line-height: 1.4;
+}
+p {
+  margin-top: 20px;
+}
+/* navber */
+nav {
+  background-color: #eaeaea;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+}
+.brand-logo {
+  width: 170px;
+}
+.brand-logo img {
+  width: 100%;
+  height: auto;
+}
+.nav-items {
+  margin-left: auto;
+}
+.nav-items ul {
+  display: flex;
+}
+.nav-items li {
+  margin-left: 30px;
+  padding: 10px;
+}
+.nav-items li:hover {
+  border-bottom: 5px solid #0088ff;
+}
+.nav-items a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-size: 18px;
+}
+.active {
+  border-bottom: 5px solid #0088ff;
+}
+.btn {
+  background-color: #0088ff;
+  border-radius: 2px;
+}
+.btn a {
+  color: #fff;
+}
+/* footer part */
+footer {
+  padding-top: 20px;
+}
+hr.footer {
+  border-top: 1px solid #eaeaea;
+  margin: 0px;
+}
+.icons span {
+  margin-right: 20px;
+}
+.icons i {
+  font-size: 50px;
+  color: #0080ff;
+}
+/* main section */
+main {
+  padding: 50px 0;
+}
+/* home */
+hr.home {
+  margin-top: 25px;
+}
+.blog-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 25px;
+}
+.blog-cards a {
+  text-decoration: none;
+}
+.blog-card-item {
+  width: 100%;
+  overflow: hidden;
+  background-color: #eaeaea;
+}
+.blog-image {
+  width: 100%;
+  height: 300px;
+  min-height: 300px;
+}
+.blog-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.card-tag-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.card-tag {
+  padding: 10px;
+  background-color: #7d4cdb;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: -17px;
+}
+.card-containts {
+  padding: 0 35px 50px 35px;
+}
+.small {
+  font-size: 14px;
+}
+.card-title {
+  font-size: 24px;
+  margin-top: 10px;
+}
+.all-post {
+  margin-top: 50px;
+}
+.next-post {
+  margin-left: 800px;
+}
+.next-post a {
+  text-decoration: none;
+  color: #000;
+}
+.blog-details h1 {
+  font-size: 36px;
+  margin: 16px 0;
+}
+.blog-details h2 {
+  font-size: 28px;
+  margin: 14px 0;
+}
+.blog-details h3 {
+  font-size: 24px;
+  margin: 12px 0;
+}
+.blog-details p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.blog-details img {
+  width: 100%;
+  height: auto;
+  margin: 12px 0;
+}
+.blog-details .title {
+  font-size: 42px;
+  margin: 30px 0;
+}
+/* about */
+.about-details h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 18px 0;
+  color: #2c3e50;
+}
+.about-details p a {
+  width: 100%;
+  font-size: 14px;
+  text-decoration: none;
+}
+.about-field {
+  width: 100%;
+  padding: 10px;
+  margin-top: 2rem;
+  background-color: #ddd5;
+  border: 2px solid #eaeaea;
+}
+/* contact area */
+.form-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddd3;
+}
+.form-group {
+  width: 100%;
+  margin-top: 25px;
+}
+.form-group label {
+  font-size: 18px;
+  font-weight: 500;
+  /* display: block; */
+}
+.form-input-field {
+  margin-top: 10px;
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #eaeaea;
+  outline: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+.form-textarea {
+  margin-top: 10px;
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #eaeaea;
+  outline: none;
+  border-radius: 3px;
+  font-size: 16px;
+  resize: none;
+  font-family: "Open Sans", sans-serif;
+}
+.form-submit-button {
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #0080ff;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+@media (max-width: 778px) {
+  .container {
+    width: 99%;
+    margin: 0;
+    padding: 50px 20px;
+  }
+  .blog-cards {
+    grid-template-columns: auto;
+  }
+}
