@@ -215,7 +215,6 @@ hr.home {
 .form-group label {
   font-size: 18px;
   font-weight: 500;
-  /* display: block; */
 }
 .form-input-field {
   margin-top: 10px;
@@ -260,5 +259,30 @@ hr.home {
   }
   .blog-cards {
     grid-template-columns: auto;
+  }
+  .nav-container {
+    display: block;
+  }
+  .brand-logo img {
+    width: 80%;
+  }
+  .nav-items ul {
+    display: block;
+  }
+  .active {
+    border-bottom: 5px solid #0088ff;
+    width: 25%;
+  }
+  .btn {
+    background-color: #0088ff;
+    border-radius: 2px;
+    margin-top: 10px;
+    width: 25%;
+  }
+  .form-group label {
+    padding: 10px;
+  }
+  .form-submit-button {
+    margin-left: 30px;
   }
 }
