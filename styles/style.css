@@ -7,6 +7,7 @@ body {
   min-height: 100vh;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
+  background-color: #ecf0f1;
 }
 .container {
   width: 70%;
@@ -79,7 +80,7 @@ footer {
   padding-top: 20px;
 }
 hr.footer {
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #ddd;
   margin: 0px;
 }
 .icons span {
@@ -197,8 +198,17 @@ hr.home {
   width: 100%;
   padding: 10px;
   margin-top: 2rem;
-  background-color: #ddd5;
+  background-color: #fff;
   border: 2px solid #eaeaea;
+}
+.var {
+  color: orangered;
+}
+.javascript {
+  color: #0099ff;
+}
+.alert {
+  color: #ffc401;
 }
 /* contact area */
 .form-container {
@@ -251,7 +261,11 @@ hr.home {
   margin-bottom: 20px;
   cursor: pointer;
 }
+
 @media (max-width: 778px) {
+  body {
+    background-color: #eff;
+  }
   .container {
     width: 99%;
     margin: 0;
@@ -270,11 +284,11 @@ hr.home {
     display: block;
   }
   .active {
-    border-bottom: 5px solid #0088ff;
     width: 25%;
+    border-bottom: 5px solid #eff;
   }
   .btn {
-    background-color: #0088ff;
+    background-color: #1d2e3d;
     border-radius: 2px;
     margin-top: 10px;
     width: 25%;
@@ -284,5 +298,18 @@ hr.home {
   }
   .form-submit-button {
     margin-left: 30px;
+  }
+  footer {
+    background-color: #2c3e50;
+    color: #fff;
+  }
+  .icons i {
+    color: #ffffff;
+  }
+  footer p {
+    color: #bdc3c7;
+  }
+  .container p {
+    text-align: justify;
   }
 }
